@@ -62,7 +62,59 @@ section {
     border: 0.0625rem solid var(--primary-color);
     padding: .375rem 1.875rem;
     border-radius: 3.125rem;
+    line-height: 1.75rem;
+    display: inline-block;
+    transition: all 0.3s ease-out 0s;
 }
+
+.main-btn:hover {
+    background: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: var(--text-white);
+}
+
+h1 {
+    font-size: 3.75rem;
+    line-height: 4.25rem;
+    font-weight: 700;
+    color: var(--text-white);
+    margin-bottom: 1.25rem;
+    text-transform: uppercase;
+    font-family: var(--secondary-font);
+}
+
+h3 {
+    font-size: 2.25rem;
+    line-height: 2.875rem;
+    font-weight: 700;
+    color: var(--primary-text);
+    margin-bottom: 1.875rem;
+    font-family: var(--secondary-font);
+}
+
+h3 span {
+    color: var(--secondary-color);
+}
+
+h5 {
+    font-size: 1.5rem;
+    line-height: 1;
+    color: var(--primary-text);
+    font-weight: 500;
+    font-family: var(--secondary-font);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
