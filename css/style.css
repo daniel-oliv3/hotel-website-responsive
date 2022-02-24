@@ -104,9 +104,25 @@ h5 {
     font-family: var(--secondary-font);
 }
 
+h6 {
+    font-size: .875rem;
+    color: var(--primary-text);
+    margin-bottom: .9375rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: var(--secondary-font);
+}
 
+p {
+    font-size: 1rem;
+    color: var(--text-black);
+    line-height: 1.625rem;
+}
 
-
+.section-title:after {
+    content: '';
+    background-image: url('../img/title-icon.webp');
+}
 
 
 
